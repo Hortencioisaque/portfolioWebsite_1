@@ -1,0 +1,165 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #f8ca11;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.navDivClass {
+    padding: 60px 20px;
+}
+
+.navDivClass h1 {
+    font-size: 3em;
+    margin: 0;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #f8ca11;
+} 
+
+h2 {
+    border-bottom: 2px solid #f8ca11;
+    padding-bottom: 10px;
+}
+
+.btnSurprise {
+    background-color: #f5e29a;
+    color: black;
+    border: none;
+    padding: 7px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border:1px solid grey;
+}
+
+.column {
+    float: left;
+    width: 48.5%;
+    padding: 5px;
+}
+
+#imgSurprise {
+display: none;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img.responsive-img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#contactUs {
+    display: none;
+}
+
+.contactForm {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.contactForm h2 {
+    text-align: center;
+}
+.contactForm label {
+    display: block;
+    margin-bottom: 8px;
+}
+.contactForm input,
+.contactForm textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d7d6d6;
+    border-radius: 5px;
+}
+.contactForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #067cfb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contactForm button:hover {
+    background-color: #035ebf;
+}
+
+footer {
+    background-color: #282727;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .navDivClass h1 {
+        font-size: 2em;
+    }
+}

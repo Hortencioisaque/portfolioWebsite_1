@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History of JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    
+</head>
+<body>
+    <header role="main">
+        <div class="navDivClass">
+            <h1>History of JavaScript</h1>
+            <nav role="navigation">
+                <ul>
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#images">Images</a></li>
+                    <li><a href="#funFacts">Fun Facts</a></li>
+                    <li><a href="#contact">Contact-Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main role="main">
+        <section id="intro" role="region" aria-labelledby="intro-heading">
+            <h2 id="intro-heading">Introduction</h2>
+            <p>JavaScript is a versatile programming language commonly used in web development. It was created in 1995 by Brendan Eich while he was working at Netscape Communications Corporation. Initially developed in just 10 days, JavaScript has since become one of the core technologies of the World Wide Web, alongside HTML and CSS.</p>
+        </section>
+        <section id="timeline" role="region" aria-labelledby="timeline-heading">
+            <h2 id="timeline-heading">Timeline</h2>
+            <ul>
+                <li><strong>1995:</strong> JavaScript was created by Brendan Eich.</li>
+                <li><strong>1996:</strong> Microsoft introduced JScript with Internet Explorer 3.0.</li>
+                <li><strong>1997:</strong> ECMAScript 1 was released.</li>
+                <li><strong>1999:</strong> ECMAScript 3 was released, becoming widely adopted.</li>
+                <li><strong>2009:</strong> ECMAScript 5 was released, adding many features.</li>
+                <li><strong>2015:</strong> ECMAScript 6 (ES6) was released, introducing significant updates.</li>
+                <li><strong>2021:</strong> ECMAScript 12 (ES12) was released.</li>
+            </ul>
+        </section>
+        <section id="jsFeatures" role="region" aria-labelledby="features-heading">
+            <h2 id="features-heading">Key Features</h2>
+            <p>Over the years, JavaScript has evolved to include many powerful features:</p>
+            <ul>
+                <li>Dynamic Typing</li>
+                <li>First-class Functions</li>
+                <li>Prototypes</li>
+                <li>Async/Await</li>
+                <li>Modules</li>
+                <li>Event-driven programming</li>
+            </ul>
+        </section>
+        <section id="images" class="row" role="region" aria-labelledby="images-heading">
+            <h2 id="images-heading">Images&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btnSurprise" onclick="myFunction()">Press Here to see the images or to Hide them</button></h2>
+            <div id="imgSurprise">
+                <figure class="column">
+                    <img src="images/brendan-eich.jpg" alt="Brendan Eich, creator of JavaScript" class="responsive-img">
+                    <figcaption>Brendan Eich, creator of JavaScript</figcaption>
+                </figure>
+                <figure class="column">
+                    <img src="images/javascript-logo.png" alt="JavaScript logo" class="responsive-img">
+                    <figcaption>The JavaScript logo</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="funFacts" role="region" aria-labelledby="funFacts-heading">
+            <h2 id="funFacts-heading">Fun Facts</h2>
+            <ul>
+                <li>JavaScript was originally named Mocha, then renamed to LiveScript, and finally to JavaScript.</li>
+                <li>Despite its name, JavaScript is not related to Java.</li>
+                <li>JavaScript can be used both on the client-side and server-side (e.g., Node.js).</li>
+            </ul>
+        </section>
+        
+        <h2 id="contactHeading">Contact Us</h2>
+        <section id="contact" role="region" aria-labelledby="contactHeading" class="contactForm">
+            <h3 id="contactUs">Form Sent, Thank you</h3>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer role="contentinfo">
+        <p>&copy; 2025 developers - All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
